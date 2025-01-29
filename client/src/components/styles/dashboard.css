@@ -1,0 +1,75 @@
+/* DashBoard Component Styles */
+
+.dashboard-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2b6cb0;
+    margin-bottom: 1.5rem;
+}
+
+.user-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.avatar {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.user-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.user-email, .user-phone {
+    color: #4a5568;
+    font-size: 1rem;
+}
+
+.logout-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.logout-btn {
+    background-color: #f56565;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-weight: 500;
+    font-size: 1.125rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.logout-btn:hover {
+    background-color: #e53e3e;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #e53e3e;
+}
+
+.error {
+    color: #e53e3e;
+}
