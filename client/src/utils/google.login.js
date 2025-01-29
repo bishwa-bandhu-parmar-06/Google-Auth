@@ -6,7 +6,7 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_GOOGLE_AUTH_API_KEY,
-  authDomain: "login-df10f.firebaseapp.com",
+  authDomain: "google-auth-g08k.onrender.com",
   projectId: "login-df10f",
   storageBucket: "login-df10f.appspot.com", // Corrected storageBucket
   messagingSenderId: "248118223459",
